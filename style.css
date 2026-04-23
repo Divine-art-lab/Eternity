@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@font-face {
+  font-family: Georgia;
+  src: url('georgia.ttf');
+}
+@font-face {
+  font-family: GeorgiaB;
+  src: url('georgiab.ttf');
+}
+header {
+  height: 45%;
+  background-image: url('images (4) (1).jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+header h1 {
+  height: 100%;
+  width: 100%;
+}
+header h1 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: deeppink;
+  padding: 3px 8px;
+  font-size: 70px;
+  font-family: GeorgiaB;
+  font-weight: bolder;
+  -webkit-text-stroke: .05px #fff;
+}
+article {
+  border: 5px solid ;
+  padding: 12px;
+  text-align: justify;
+  border-image: url('images (4) (1).jpeg') 30 round;
+  border-image-repeat: stretch;
+  /*border: 10px solid pink;*/
+  border-width: 10px;
+  text-indent: 10px;
+  margin: 5px auto;
+}
+article::first-letter {
+  font-size: 42px;
+}
+article p {
+  margin: 6px auto;
+}
