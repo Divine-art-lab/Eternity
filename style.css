@@ -51,9 +51,41 @@ article {
   text-indent: 10px;
   margin: 5px auto;
 }
+article.next-article {
+  border: 5px solid ;
+  padding: 12px;
+  text-align: justify;
+  border: 10px solid pink;
+  border-width: 10px;
+  text-indent: 10px;
+  margin: 5px auto;
+}
 article::first-letter {
   font-size: 42px;
 }
 article p {
   margin: 6px auto;
+}
+a, button {
+  text-decoration: none;
+  color: #fff;
+  background-color: deeppink;
+  padding: 8px 16px;
+  border-radius: 0 6px 6px 0;
+  border: none;
+}
+section {
+  text-align: right;
+  padding: 8px 0;
+}
+.buttons {
+  text-align: left;
+}
+button {
+  border-radius: 6px 0 0 6px;
+  font-size: 42px;
+  background: none;
+  color: deeppink;
+  padding: 0;
+  margin: 0;
 }
